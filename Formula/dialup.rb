@@ -2,28 +2,28 @@
 class Dialup < Formula
   desc "Message people and groups from your terminal, Claude Code and Codex"
   homepage "https://anscape.com"
-  version "0.3.1"
+  version "0.4.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://anscape.com/download/0.3.1/dialup-darwin-arm64.tar.gz"
-      sha256 "09a95d6fd3f36a917d6d39eb0d9e641012dc3e043cc43bc0798040e327da17b2"
+      url "https://anscape.com/download/0.4.0/dialup-darwin-arm64.tar.gz"
+      sha256 "84d076b52a9b91a4d9ccfa62238e1af41fd275b0249013a20d3b7574c74e209a"
     end
     on_intel do
-      url "https://anscape.com/download/0.3.1/dialup-darwin-x64.tar.gz"
-      sha256 "f8441e4c86ef40e1ab246d6b3803793c915b34b6e7c424cbc29f1ee60ed49de7"
+      url "https://anscape.com/download/0.4.0/dialup-darwin-x64.tar.gz"
+      sha256 "40d86c0c4822d77f6284012db73abefe2100e8464f38bd8e8cc9b39cd5c6383a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://anscape.com/download/0.3.1/dialup-linux-arm64.tar.gz"
-      sha256 "03e91ad6541f4ed02d29704f920a174f3b946ff555eb9a499bde8dbe384ac6b3"
+      url "https://anscape.com/download/0.4.0/dialup-linux-arm64.tar.gz"
+      sha256 "a2f1cc3e7ad09c751dee9877ab001385b0b971ac56e590d897b953ab2f7c314d"
     end
     on_intel do
-      url "https://anscape.com/download/0.3.1/dialup-linux-x64.tar.gz"
-      sha256 "26ceaca623c6da9cbd24f5fb4c405435c0669c74d6ecd56b57df6458fbb920ba"
+      url "https://anscape.com/download/0.4.0/dialup-linux-x64.tar.gz"
+      sha256 "3c1260789ddcbf8ae34801c2951a1746ae428bf9006cdca1505f34b6bbab9c24"
     end
   end
 
@@ -33,8 +33,9 @@ class Dialup < Formula
 
   def caveats
     <<~EOS
-      Sign in (opens your browser once) and set up Claude Code and Codex:
+      Sign in (opens your browser once); this also adds Dialup to Claude Code and Codex:
         dialup login
+      Then just ask Claude or Codex: "message @someone", "make a #team group", "what did @ana say last week?"
     EOS
   end
 
