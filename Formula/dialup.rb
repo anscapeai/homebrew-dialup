@@ -2,28 +2,28 @@
 class Dialup < Formula
   desc "Message people and groups from your terminal, Claude Code and Codex"
   homepage "https://anscape.com"
-  version "0.4.0"
+  version "0.4.1"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://anscape.com/download/0.4.0/dialup-darwin-arm64.tar.gz"
-      sha256 "84d076b52a9b91a4d9ccfa62238e1af41fd275b0249013a20d3b7574c74e209a"
+      url "https://anscape.com/download/0.4.1/dialup-darwin-arm64.tar.gz"
+      sha256 "03296a4e35f72c8055f4f921616adcbf363aa191cfb96cce0c4fc2af6021d691"
     end
     on_intel do
-      url "https://anscape.com/download/0.4.0/dialup-darwin-x64.tar.gz"
-      sha256 "40d86c0c4822d77f6284012db73abefe2100e8464f38bd8e8cc9b39cd5c6383a"
+      url "https://anscape.com/download/0.4.1/dialup-darwin-x64.tar.gz"
+      sha256 "d8331a58f612611d0d3033c6e38e35ebcb3c20909631d631bd19099adc0f59eb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://anscape.com/download/0.4.0/dialup-linux-arm64.tar.gz"
-      sha256 "a2f1cc3e7ad09c751dee9877ab001385b0b971ac56e590d897b953ab2f7c314d"
+      url "https://anscape.com/download/0.4.1/dialup-linux-arm64.tar.gz"
+      sha256 "5701081d73f55f5de5162c7ac9e4f5255f41eda695ff9dfd8afe30558aace3bb"
     end
     on_intel do
-      url "https://anscape.com/download/0.4.0/dialup-linux-x64.tar.gz"
-      sha256 "3c1260789ddcbf8ae34801c2951a1746ae428bf9006cdca1505f34b6bbab9c24"
+      url "https://anscape.com/download/0.4.1/dialup-linux-x64.tar.gz"
+      sha256 "9649d2ae975e53f9bd8607fb39444af33df926cd8f34b3962d480bae6babf9ea"
     end
   end
 
